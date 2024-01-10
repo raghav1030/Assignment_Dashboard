@@ -9,8 +9,10 @@ const PaymentHistory = ({ timeline }) => {
             </h1>
 
             
+            <div className='shadow-[0px_2px_6px_0px] shadow-[#1a181e0a] bg-[#FFF]'>
 
             <TransactionHistoryTable></TransactionHistoryTable>
+            </div>
         </div>
     )
 }

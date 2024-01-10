@@ -7,7 +7,7 @@ const PaymentHeader = ({timeline , setTimeline}) => {
 
 
     return (
-        <div className='flex flex-col gap-6   h-full w-full text-black'>
+        <div className='flex flex-col gap-6 bg-[#FFF]   h-full w-full text-black'>
             <div className='flex justify-between items-center w-full h-[2.25rem]'>
                 <div className='text-[1.25rem] font-[500] leading-7  '>
                     Overview
@@ -29,7 +29,7 @@ const PaymentHeader = ({timeline , setTimeline}) => {
             </div>
 
             <div className='flex justify-between self-stretch gap-6 w-full items-center  '>
-                <div className='p-6 w-1/2    flex flex-col gap-4  items-start justify-center shadow-[#1a181e] shadow-[0px_2px_6px_0px_#1a181e0a] rounded-[0.5rem] '>
+                <div className='p-6 w-1/2    flex flex-col gap-4  items-start justify-center  shadow-[0px_2px_6px_0px] shadow-[#1a181e0a] rounded-[0.5rem] '>
                     <p className='text-[1rem] font-normal leading-6 text-[#4D4D4D] '>
                         Online Orders
                     </p>
@@ -40,7 +40,7 @@ const PaymentHeader = ({timeline , setTimeline}) => {
                 </div>
 
 
-                <div className='p-6 w-1/2  flex flex-col gap-4  justify-center items-start shadow-[#1a181e] shadow-[0px_2px_6px_0px_#1a181e0a] rounded-[0.5rem] '>
+                <div className='p-6 w-1/2  flex flex-col gap-4  justify-center items-start   shadow-[0px_2px_6px_0px] shadow-[#1a181e0a] rounded-[0.5rem] '>
                     <p className='text-[1rem] font-normal leading-6 text-[#4D4D4D] '>
                         Amount received
                     </p>
