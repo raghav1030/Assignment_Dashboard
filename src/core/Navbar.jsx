@@ -9,8 +9,8 @@ const Navbar = () => {
       <div className='flex gap-4 items-center w-1/3'>
         <p className='text-[#1A181E] text-[0.9375rem]  font-normal leading-[1.375rem] '>Payments</p>
 
-        <span className='flex gap-2 text-[#4D4D4D] items-center'>
-          <span className='w-3 h-3 '>
+        <span className='flex gap-2 text-[#4D4D4D] items-center justify-center'>
+          {/* <span className='w-3 h-3 '> */}
             <svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 14 14" fill="none">
               <g clip-path="url(#clip0_51935_2522)">
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M7.77783 10.1808C7.77783 10.6103 7.42968 10.9584 7.00022 10.9584C6.57076 10.9584 6.22261 10.6103 6.22261 10.1808C6.22261 9.75137 6.57076 9.40322 7.00022 9.40322C7.42968 9.40322 7.77783 9.75137 7.77783 10.1808Z" fill="#4D4D4D" />
@@ -23,7 +23,7 @@ const Navbar = () => {
                 </clipPath>
               </defs>
             </svg>
-          </span>
+          {/* </span> */}
 
           <p className='text-[0.75rem] font-normal leading-4 text-[#4D4D4D] ' >
             How it works
@@ -49,7 +49,7 @@ const Navbar = () => {
         </span>
 
 
-        <input id='searchbar' type="text" className='font-normal text-[#4D4D4D] bg-[#F2F2F2] text-base w-full outline-none ' placeholder={"Search features, tutorials, etc."} />
+        <input id='searchbar' type="text" className='font-normal text-[#4D4D4D] bg-[#F2F2F2] text-[0.9375rem] leading-[1.375rem]  w-full outline-none ' placeholder={"Search features, tutorials, etc."} />
       </div>
       <div className='w-1/3 flex flex-col '>
         <div className='flex justify-end items-center gap-3 '>
